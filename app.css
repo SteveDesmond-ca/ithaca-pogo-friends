@@ -1,0 +1,32 @@
+body {
+    background-color: #fafafa;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    margin: 0;
+}
+
+.checkbox {
+    padding-left: 1rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.flex>* {
+    margin: 0 0.25rem;
+}
+
+.card {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+}

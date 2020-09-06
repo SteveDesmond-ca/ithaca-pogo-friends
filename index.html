@@ -1,136 +1,95 @@
 <html>
 
-<head>
-    <title>Ithaca Pokémon GO Friend QR Codes</title>
-    <link rel="shortcut icon" href="icon.png"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
-    <script src="https://www.nayuki.io/res/qr-code-generator-library/qrcodegen.js"></script>
-    <style>
-        body {
-            background-color: #fafafa;
-        }
+    <head>
+        <title>Ithaca Pokémon GO Friend QR Codes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="icon.png" />
+        <link rel="stylesheet" href="app.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+        <script src="https://www.nayuki.io/res/qr-code-generator-library/qrcodegen.js"></script>
+    </head>
 
-        h1 {
-            text-align: center;
-        }
-
-        label {
-            margin: 0;
-        }
-
-        .flex {
-            display: flex;
-            justify-content: left;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .flex>* {
-            margin: 0 0.25rem;
-        }
-
-        .card {
-            margin-bottom: 30px;
-            border-radius: 5px;
-            box-shadow: 5px 5px 10px #d9d9d9,
-                -5px -5px 10px #ffffff;
-        }
-    </style>
-</head>
-
-<body>
-    <div id="app" class="container">
-        <h1>Ithaca Pokémon GO Friend QR Codes</h1>
-        <div class="row">
-            <div class="col-lg-6 flex">
-                <label class="control-label" for="newest">Sort by:</label>
-                <button id="newest" type="button" class="btn btn-default" :class="{'btn-primary': sort == 'newest'}"
-                    @click="sort = 'newest'">
-                    Newest
-                </button>
-                <button id="oldest" type="button" class="btn btn-default" :class="{'btn-primary': sort == 'oldest'}"
-                    @click="sort = 'oldest'">
-                    Oldest
-                </button>
-                <button id="name" type="button" class="btn btn-default" :class="{'btn-primary': sort == 'name'}"
-                    @click="sort = 'name'">
-                    Name
-                </button>
-                <button id="username" type="button" class="btn btn-default" :class="{'btn-primary': sort == 'username'}"
-                    @click="sort = 'username'">
-                    Username
-                </button>
+    <body>
+        <div id="app" class="container">
+            <h1>Ithaca Pokémon GO Friend QR Codes</h1>
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 flex">
+                    <label class="control-label" for="search">Search:</label>
+                    <input type="text" class="form-control" placeholder="Name or Username" v-model="search" />
+                </div>
+                <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 flex">
+                    <label class="control-label">Filter:</label>
+                    <label class="checkbox">
+                        <input type="checkbox" v-model="filter.raids" />
+                        Raids
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" v-model="filter.friendship" />
+                        Friendship
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" v-model="filter.pvp" />
+                        PvP
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" v-model="filter.trading" />
+                        Trading
+                    </label>
+                </div>
+                <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 flex">
+                    <label class="control-label" for="newest">Sort by:</label>
+                    <button id="newest" type="button" class="btn btn-default" :class="{'btn-primary': sort == 'newest'}"
+                        @click="sort = 'newest'">
+                        Newest
+                    </button>
+                    <button id="oldest" type="button" class="btn btn-default" :class="{'btn-primary': sort == 'oldest'}"
+                        @click="sort = 'oldest'">
+                        Oldest
+                    </button>
+                    <button id="name" type="button" class="btn btn-default" :class="{'btn-primary': sort == 'name'}"
+                        @click="sort = 'name'">
+                        Name
+                    </button>
+                    <button id="username" type="button" class="btn btn-default"
+                        :class="{'btn-primary': sort == 'username'}" @click="sort = 'username'">
+                        Username
+                    </button>
+                </div>
             </div>
-            <div class="col-lg-6 flex">
-                <label class="control-label" for="search">Search:</label>
-                <input type="text" class="form-control" placeholder="Name or Username" v-model="filter" />
-            </div>
-        </div>
-        <div class="row">
-            <div v-for="friend in sorted_and_filtered" class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card p-4">
-                    <div v-html="friend.qr_code"></div>
-                    <dl>
-                        <dt>Name:</dt>
-                        <dd>{{friend.name}}</dd>
-                        <dt>Username:</dt>
-                        <dd>{{friend.username}}</dd>
-                        <dt>Friend Code:</dt>
-                        <dd>{{friend.code}}</dd>
-                    </dl>
+            <div class="row">
+                <div v-for="friend in sorted_and_filtered" class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card p-4">
+                        <div v-html="friend.qr_code"></div>
+                        <dl>
+                            <dt>Name:</dt>
+                            <dd>{{friend.name}}</dd>
+                            <dt>Username:</dt>
+                            <dd>{{friend.username}}</dd>
+                            <dt>Friend Code:</dt>
+                            <dd>{{friend.code}}</dd>
+                            <dt>Interested In:</dt>
+                            <dd class="d-inline" v-if="friend.raids">Raids</dd>
+                            <dd class="d-inline" v-if="friend.friendship">Friendship</dd>
+                            <dd class="d-inline" v-if="friend.pvp">PvP</dd>
+                            <dd class="d-inline" v-if="friend.trading">Trading</dd>
+                        </dl>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
 
-    <script>
-        const app = new Vue({
-            el: "#app",
-            data: {
-                friends: [],
-                sort: 'newest',
-                filter: ''
-            },
-            computed: {
-                sorted_and_filtered: function () {
-                    const filtered = this.friends.filter(f =>
-                        f.name.toLowerCase().indexOf(this.filter.toLowerCase()) !== -1
-                        || f.username.toLowerCase().indexOf(this.filter.toLowerCase()) !== -1);
-                    switch (this.sort) {
-                        case 'newest':
-                            return filtered.sort((f1, f2) => Number(f1.id) < Number(f2.id) ? 1 : -1);
-                        case 'oldest':
-                            return filtered.sort((f1, f2) => Number(f1.id) > Number(f2.id) ? 1 : -1);
-                        case 'name':
-                            return filtered.sort((f1, f2) => f1.name > f2.name ? 1 : -1);
-                        case 'username':
-                            return filtered.sort((f1, f2) => f1.username > f2.username ? 1 : -1);
-                    }
-                }
-            },
-            mounted: async function () {
-                const request = await fetch('friends.json');
-                this.friends = await request.json();
-                this.friends.forEach(friend => {
-                    const segments = qrcodegen.QrSegment.makeSegments(friend.code.replace(/ /g, ''));
-                    friend.qr_code = qrcodegen.QrCode.encodeSegments(segments, qrcodegen.QrCode.Ecc.HIGH, 1, 1, -1, true).toSvgString(1);
-                });
-            }
-        });
-    </script>
-</body>
+        <script src="app.js"></script>
+    </body>
 
 </html>

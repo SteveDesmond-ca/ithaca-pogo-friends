@@ -1,704 +1,1280 @@
 [
     {
-        "id": 1,
         "name": "Abi",
         "username": "AbiXilla",
-        "code": "0281 5886 6665"
+        "code": "0281 5886 6665",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
     },
     {
-        "id": 2,
         "name": "Brian Z",
-        "username": "Aeiliren",
-        "code": "4173 7113 5913"
+        "username": "Aeiliren ",
+        "code": "4173 7113 5913",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
     },
     {
-        "id": 3,
         "name": "Karthik Balakrishnan",
         "username": "Aerot",
-        "code": "9766 1756 3853"
+        "code": "9766 1756 3853",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
     },
     {
-        "id": 4,
-        "name": "Brian",
-        "username": "AlenairB",
-        "code": "5997 8869 2033"
-    },
-    {
-        "id": 5,
-        "name": "Caroline",
-        "username": "Alkaru",
-        "code": "1911 2720 7758"
-    },
-    {
-        "id": 6,
-        "name": "",
-        "username": "AllixMai",
-        "code": "7223 3669 5248"
-    },
-    {
-        "id": 7,
-        "name": "Ami (Discord)",
-        "username": "Ariadnela",
-        "code": "0199 5337 8885"
-    },
-    {
-        "id": 8,
-        "name": "",
-        "username": "Bacceus",
-        "code": "6494 3240 4964"
-    },
-    {
-        "id": 9,
-        "name": "revolvinglight (discord)",
-        "username": "beemouniverse",
-        "code": "9528 8881 0573"
-    },
-    {
-        "id": 10,
-        "name": "Bryce Ness",
-        "username": "Ben22red",
-        "code": "1426 7919 0742"
-    },
-    {
-        "id": 11,
-        "name": "Matt Bilyk",
-        "username": "blazln",
-        "code": "7859 0636 4728"
-    },
-    {
-        "id": 12,
-        "name": "Steve",
-        "username": "blink151steve",
-        "code": "7586 8818 6156"
-    },
-    {
-        "id": 13,
-        "name": "Camila Pulido B.",
-        "username": "Cadapop",
-        "code": "9660 1121 9927"
-    },
-    {
-        "id": 14,
-        "name": "Eric Peck",
-        "username": "Chaosdart",
-        "code": "5562 3812 2419"
-    },
-    {
-        "id": 15,
-        "name": "Chunmei",
-        "username": "ChunMega",
-        "code": "2888 3929 6620"
-    },
-    {
-        "id": 16,
-        "name": "Gary Gao",
-        "username": "Comusus",
-        "code": "7850 0186 2106"
-    },
-    {
-        "id": 17,
-        "name": "Tyler",
-        "username": "Coolgamer7",
-        "code": "7035 8513 7149"
-    },
-    {
-        "id": 18,
-        "name": "Dan Disidoro",
-        "username": "Daddand",
-        "code": "4041 7413 0972"
-    },
-    {
-        "id": 19,
-        "name": "Carl Lu",
-        "username": "DalekTrainer42",
-        "code": "5660 9269 9656"
-    },
-    {
-        "id": 20,
-        "name": "Daniel",
-        "username": "danie1sam",
-        "code": "4276 7396 0945"
-    },
-    {
-        "id": 21,
-        "name": "Maggie Sever",
-        "username": "Datagirl57",
-        "code": "9900 6085 9123"
-    },
-    {
-        "id": 22,
-        "name": "David Bromberg",
-        "username": "DaveBromberg",
-        "code": "3505 3951 3583"
-    },
-    {
-        "id": 23,
-        "name": "Srikar Vedula",
-        "username": "DDules",
-        "code": "3391 9547 0422"
-    },
-    {
-        "id": 24,
-        "name": "Alex DinoJr Dennis",
-        "username": "DinoJunior",
-        "code": "8606 6609 8212"
-    },
-    {
-        "id": 25,
-        "name": "Duane Gentz",
-        "username": "Dixiespork",
-        "code": "2368 0403 7213"
-    },
-    {
-        "id": 26,
-        "name": "Jorge Cartaya",
-        "username": "dragoplateau",
-        "code": "7343 9354 3560"
-    },
-    {
-        "id": 27,
-        "name": "Dean Castillo",
-        "username": "Drosophiler",
-        "code": "4020 3468 5163"
-    },
-    {
-        "id": 28,
-        "name": "Jay Bell",
-        "username": "DukeLorange13",
-        "code": "8472 7583 3028"
-    },
-    {
-        "id": 29,
-        "name": "Dustin Bordonaro",
-        "username": "DustinBordonaro",
-        "code": "5963 0780 9497"
-    },
-    {
-        "id": 30,
-        "name": "Crystal Lu",
-        "username": "Elektri",
-        "code": "3723 0698 7287"
-    },
-    {
-        "id": 31,
-        "name": "William Lou",
-        "username": "Elementists",
-        "code": "9036 6184 0810"
-    },
-    {
-        "id": 32,
-        "name": "Elton Munoz",
-        "username": "Eltown",
-        "code": "8956 4304 7035"
-    },
-    {
-        "id": 33,
-        "name": "Emily Richards",
-        "username": "Emmylina",
-        "code": "1408 8362 8114"
-    },
-    {
-        "id": 34,
-        "name": "Ben Wu",
-        "username": "Emrys777",
-        "code": "6180 2125 6649"
-    },
-    {
-        "id": 35,
-        "name": "Gerard",
-        "username": "Erectionator",
-        "code": "8989 2840 8645"
-    },
-    {
-        "id": 36,
-        "name": "Mara",
-        "username": "Fyrhazard",
-        "code": "7038 7640 2126"
-    },
-    {
-        "id": 37,
-        "name": "Jonathan M. Lagasse",
-        "username": "Gasman713",
-        "code": "5463 4888 8285"
-    },
-    {
-        "id": 38,
-        "name": "Doug McKee",
-        "username": "GotchaGaia",
-        "code": "1533 4198 6999"
-    },
-    {
-        "id": 39,
-        "name": "Jonathan Chang",
-        "username": "GradientDissent",
-        "code": "7809 0575 9575"
-    },
-    {
-        "id": 40,
-        "name": "Lee Consolo",
-        "username": "HeyImLee",
-        "code": "0053 0612 9754"
-    },
-    {
-        "id": 41,
-        "name": "",
-        "username": "illetirate",
-        "code": "2645 9519 6841"
-    },
-    {
-        "id": 42,
-        "name": "kalyn",
-        "username": "imakalyn",
-        "code": "8916 6321 7582"
-    },
-    {
-        "id": 43,
-        "name": "Faris",
-        "username": "InfinityNight",
-        "code": "4027 9179 8869"
-    },
-    {
-        "id": 44,
-        "name": "Joshua Chan",
-        "username": "jchan3580",
-        "code": "3645 8776 2989"
-    },
-    {
-        "id": 45,
-        "name": "Jordan",
-        "username": "Jorstern",
-        "code": "5542 5242 3109"
-    },
-    {
-        "id": 46,
-        "name": "Jonathan Villanueva",
-        "username": "jwvillain",
-        "code": "5301 1857 1528"
-    },
-    {
-        "id": 47,
-        "name": "Kane Wu",
-        "username": "Kaneium",
-        "code": "4456 7237 3912"
-    },
-    {
-        "id": 48,
-        "name": "Kelvin Yeung",
-        "username": "Kelvin112233",
-        "code": "1269 4571 4848"
-    },
-    {
-        "id": 49,
-        "name": "Meghan",
-        "username": "KilVoss",
-        "code": "2090 9945 9163"
-    },
-    {
-        "id": 50,
-        "name": "Addison",
-        "username": "Kittirina",
-        "code": "0942 9386 5038"
-    },
-    {
-        "id": 51,
-        "name": "Khanthos (Discord)",
-        "username": "Khanflux",
-        "code": "0551 5978 0325"
-    },
-    {
-        "id": 52,
-        "name": "Colin Wu",
-        "username": "KHuwen",
-        "code": "3145 8051 9338"
-    },
-    {
-        "id": 53,
-        "name": "Kockboi",
-        "username": "Kockboi",
-        "code": "5390 3833 6069"
-    },
-    {
-        "id": 54,
-        "name": "Matthew Ko",
-        "username": "kokopuffsss",
-        "code": "0896 9854 3042"
-    },
-    {
-        "id": 55,
-        "name": "Will Devine",
-        "username": "KronosUno",
-        "code": "8057 2547 1464"
-    },
-    {
-        "id": 56,
-        "name": "Logan Davis",
-        "username": "logabb1234",
-        "code": "2020 3191 6819"
-    },
-    {
-        "id": 57,
-        "name": "Michelle Wheeler",
-        "username": "LunaRockette",
-        "code": "7614 0086 4258"
-    },
-    {
-        "id": 58,
-        "name": "Kevin McGarrigle",
-        "username": "mackdaddycash",
-        "code": "4226 2925 9146"
-    },
-    {
-        "id": 59,
-        "name": "Patricia Zhang",
-        "username": "MantouBunny",
-        "code": "8528 6886 3714"
-    },
-    {
-        "id": 60,
-        "name": "Raymond Yeung(Discord)",
-        "username": "Mastarayray",
-        "code": "9787 3037 7568"
-    },
-    {
-        "id": 61,
-        "name": "Alex Mauney",
-        "username": "mathmauney",
-        "code": "9875 0110 8692"
-    },
-    {
-        "id": 62,
-        "name": "Edison Widjaja",
-        "username": "MatrCauthon",
-        "code": "4851 4833 0475"
-    },
-    {
-        "id": 63,
-        "name": "Mike Burleigh",
-        "username": "MCRBurleigh",
-        "code": "0238 2533 6501"
-    },
-    {
-        "id": 64,
-        "name": "Tyler",
-        "username": "MisterTiberius",
-        "code": "9419 4021 8766"
-    },
-    {
-        "id": 65,
-        "name": "Colleen Crossen",
-        "username": "MommaKeen",
-        "code": "1787 8053 4668"
-    },
-    {
-        "id": 66,
-        "name": "Maya Walters",
-        "username": "msmwalters01",
-        "code": "7304 1556 0032"
-    },
-    {
-        "id": 67,
-        "name": "Marisa Matsudaira",
-        "username": "mzrisamom",
-        "code": "7002 6938 7096"
-    },
-    {
-        "id": 68,
-        "name": "Nadya Kandel",
-        "username": "nadushak",
-        "code": "1035 8797 4133"
-    },
-    {
-        "id": 69,
-        "name": "Maxine Raimon",
-        "username": "NaoKirae",
-        "code": "8562 2937 4325"
-    },
-    {
-        "id": 70,
-        "name": "Corey Travis",
-        "username": "NegativCreep",
-        "code": "8967 0275 6125"
-    },
-    {
-        "id": 71,
-        "name": "Samy",
-        "username": "OcttopusTopHat",
-        "code": "9565 8799 0337"
-    },
-    {
-        "id": 72,
-        "name": "Michael Crelin",
-        "username": "PapaMufassa",
-        "code": "1976 6152 3186 "
-    },
-    {
-        "id": 73,
-        "name": "Alan",
-        "username": "phddenied",
-        "code": "6698 6342 7927"
-    },
-    {
-        "id": 74,
-        "name": "Jason Hamilton",
-        "username": "PhysicistJason",
-        "code": "1311 8381 4692"
-    },
-    {
-        "id": 75,
-        "name": "Brian",
-        "username": "physinet",
-        "code": "3747 0639 7392"
-    },
-    {
-        "id": 76,
-        "name": "Alexander Axel",
-        "username": "PunkGuyAlyx",
-        "code": "4263 9939 6905"
-    },
-    {
-        "id": 77,
-        "name": "Seth Oaks",
-        "username": "PvtSkittles",
-        "code": "5317 9158 3670"
-    },
-    {
-        "id": 78,
-        "name": "Barry Liu",
-        "username": "Pyrogen",
-        "code": "0366 2462 4708"
-    },
-    {
-        "id": 79,
-        "name": "sowmya",
-        "username": "qwdtvti12",
-        "code": "5600 2662 3322"
-    },
-    {
-        "id": 80,
-        "name": "Katie",
-        "username": "rageKatie",
-        "code": "8168 3405 0547"
-    },
-    {
-        "id": 81,
-        "name": "Andrew Amodeo",
-        "username": "RegentQuintus",
-        "code": "5295 8607 0967"
-    },
-    {
-        "id": 83,
-        "name": "Grace",
-        "username": "RogueStarOne",
-        "code": "9568 9082 6163"
-    },
-    {
-        "id": 84,
-        "name": "RoseOfPollux (Discord)",
-        "username": "RoseOfPollux",
-        "code": "1640 5422 2618"
-    },
-    {
-        "id": 85,
-        "name": "Pui Lam Cheng",
-        "username": "RoseViolet",
-        "code": "6631 1240 8086"
-    },
-    {
-        "id": 86,
-        "name": "John",
-        "username": "RpccNasty",
-        "code": "3677 2413 8462"
-    },
-    {
-        "id": 87,
-        "name": "David Boak",
-        "username": "Satchelo",
-        "code": "8027 4500 0058"
-    },
-    {
-        "id": 88,
-        "name": "Emily aka Vignoles' SO",
-        "username": "Sazel",
-        "code": "3556 7688 7648"
-    },
-    {
-        "id": 89,
-        "name": "Scott",
-        "username": "scottv30",
-        "code": "7133 2672 3701"
-    },
-    {
-        "id": 90,
-        "name": "Sekina Tam",
-        "username": "SekinaTam",
-        "code": "1875 8971 1593"
-    },
-    {
-        "id": 91,
-        "name": "Shookies Tastegreat",
-        "username": "Shookies",
-        "code": "7302 6117 0536"
-    },
-    {
-        "id": 92,
-        "name": "",
-        "username": "Shurelia",
-        "code": "1002 8552 2193"
-    },
-    {
-        "id": 93,
-        "name": "Dean",
-        "username": "SoupAndSammy",
-        "code": "0064 5598 7350"
-    },
-    {
-        "id": 94,
-        "name": "soupy",
-        "username": "soupyhalloumi",
-        "code": "2466 8177 2962"
-    },
-    {
-        "id": 95,
-        "name": "Stephan Teng",
-        "username": "Stephanthesuper",
-        "code": "1444 6136 6108"
-    },
-    {
-        "id": 96,
-        "name": "Sterling Tyger Axel",
-        "username": "SuperNerdSter",
-        "code": "4459 5364 1837"
-    },
-    {
-        "id": 97,
-        "name": "Ryan Keilman",
-        "username": "SwayingStone",
-        "code": "8906 4396 2670"
-    },
-    {
-        "id": 98,
-        "name": "Theresa Lagasse",
-        "username": "swee2013",
-        "code": "7976 0606 7477 "
-    },
-    {
-        "id": 99,
-        "name": "Tamzid Ahmed",
-        "username": "tazidtj",
-        "code": "3954 6434 7413"
-    },
-    {
-        "id": 100,
-        "name": "Michael Fox",
-        "username": "Tgeofoxx",
-        "code": "6400 8344 5773"
-    },
-    {
-        "id": 101,
-        "name": "Devan Accardo",
-        "username": "TheDevanest",
-        "code": "7744 4702 0671 "
-    },
-    {
-        "id": 102,
-        "name": "Brad Werner",
-        "username": "Theory43",
-        "code": "6815 1879 0654 "
-    },
-    {
-        "id": 103,
-        "name": "Chas Wells",
-        "username": "Theorymon",
-        "code": "5077 4475 3693"
-    },
-    {
-        "id": 104,
-        "name": "Thomas WJ",
-        "username": "Tweejy",
-        "code": "5427 5033 7675"
-    },
-    {
-        "id": 105,
-        "name": "Elias",
-        "username": "TwelveGrain",
-        "code": "0050 5096 7577"
-    },
-    {
-        "id": 106,
-        "name": "Lawrence Klecha",
-        "username": "Urban1ce",
-        "code": "4609 4024 7408  "
-    },
-    {
-        "id": 107,
-        "name": "Shi Chang",
-        "username": "VeriTasL",
-        "code": "3600 1455 9959"
-    },
-    {
-        "id": 108,
-        "name": "Benjamin Kirk",
-        "username": "Vignoles",
-        "code": "1827 2417 3891"
-    },
-    {
-        "id": 109,
-        "name": "Anna Weaver",
-        "username": "Weaver830",
-        "code": "6615 9193 0881"
-    },
-    {
-        "id": 110,
-        "name": "Vasyl Syl Kacapyr",
-        "username": "WokePokeHaver",
-        "code": "7957 9210 7150"
-    },
-    {
-        "id": 111,
-        "name": "Bert Gates",
-        "username": "Yeezus607",
-        "code": "1108 7457 6668"
-    },
-    {
-        "id": 112,
-        "name": "Shan Ling",
-        "username": "zerokkko",
-        "code": "3101 2348 9919"
-    },
-    {
-        "id": 113,
-        "name": "Chris",
-        "username": "WaldoWasHere3",
-        "code": "0552 2224 5817"
-    },
-    {
-        "id": 114,
-        "name": "Byron R",
-        "username": "SnivyByron",
-        "code": "8303 5064 4997"
-    },
-    {
-        "id": 115,
-        "name": "Colleen Crossen",
-        "username": "GroovyKat10111",
-        "code": "6524 8235 3875"
-    },
-    {
-        "id": 116,
-        "name": "Ashley Zhang",
-        "username": "lilaclegend216",
-        "code": "4737 7575 0523"
-    },
-    {
-        "id": 117,
         "name": "Addison",
         "username": "AIinity",
-        "code": "0844 5147 2633"
+        "code": "0844 5147 2633",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
     },
     {
-        "id": 118,
+        "name": "Brian",
+        "username": "AlenairB",
+        "code": "5997 8869 2033",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Caroline",
+        "username": "Alkaru",
+        "code": "1911 2720 7758",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "",
+        "username": "AllixMai",
+        "code": "7223 3669 5248",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Ami (Discord)",
+        "username": "Ariadnela",
+        "code": "0199 5337 8885",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "",
+        "username": "Bacceus",
+        "code": "6494 3240 4964",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "revolvinglight (discord)",
+        "username": "beemouniverse",
+        "code": "9528 8881 0573",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Bryce Ness",
+        "username": "Ben22red",
+        "code": "1426 7919 0742",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Matt Bilyk",
+        "username": "blazln",
+        "code": "7859 0636 4728",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Steve",
+        "username": "blink151steve",
+        "code": "7586 8818 6156",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Camila Pulido B.",
+        "username": "Cadapop",
+        "code": "9660 1121 9927",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Eric Peck",
+        "username": "Chaosdart",
+        "code": "5562 3812 2419",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Chunmei",
+        "username": "ChunMega",
+        "code": "2888 3929 6620",
+        "raids": true,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Tyler",
+        "username": "Coolgamer7",
+        "code": "7035 8513 7149",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Rob",
+        "username": "CreakyHouseMan",
+        "code": "3949 3713 5107",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Dan Disidoro",
+        "username": "Daddand",
+        "code": "4041 7413 0972",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Carl Lu",
+        "username": "DalekTrainer42",
+        "code": "5660 9269 9656",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Daniel",
+        "username": "danie1sam",
+        "code": "4276 7396 0945",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Maggie Sever",
+        "username": "Datagirl57",
+        "code": "9900 6085 9123",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "David Bromberg",
+        "username": "DaveBromberg",
+        "code": "3505 3951 3583",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Alex DinoJr Dennis",
+        "username": "DinoJunior",
+        "code": "8606 6609 8212",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Duane Gentz",
+        "username": "Dixiespork",
+        "code": "2368 0403 7213",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Jorge Cartaya",
+        "username": "dragoplateau",
+        "code": "7343 9354 3560",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Dean Castillo",
+        "username": "Drosophiler",
+        "code": "4020 3468 5163",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Dustin Bordonaro",
+        "username": "DustinBordonaro",
+        "code": "5963 0780 9497",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Crystal Lu",
+        "username": "Elektri",
+        "code": "3723 0698 7287",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "William Lou",
+        "username": "Elementists",
+        "code": "9036 6184 0810",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Emily Richards",
+        "username": "Emmylina",
+        "code": "1408 8362 8114",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Mara",
+        "username": "Fyrhazard",
+        "code": "7038 7640 2126",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Jonathan M. Lagasse",
+        "username": "Gasman713",
+        "code": "5463 4888 8285",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Doug McKee",
+        "username": "GotchaGaia",
+        "code": "1533 4198 6999",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Jonathan Chang",
+        "username": "GradientDissent ",
+        "code": "7809 0575 9575",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Colleen Crossen",
+        "username": "GroovyKat10111",
+        "code": "6524 8235 3875",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Lee Consolo",
+        "username": "HeyImLee",
+        "code": "0053 0612 9754",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "",
+        "username": "illetirate",
+        "code": "2645 9519 6841",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "kalyn",
+        "username": "imakalyn",
+        "code": "8916 6321 7582",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Faris",
+        "username": "InfinityNight",
+        "code": "4027 9179 8869",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Joshua Chan",
+        "username": "jchan3580",
+        "code": "3645 8776 2989",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Jordan ",
+        "username": "Jorstern ",
+        "code": "5542 5242 3109",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Jonathan Villanueva",
+        "username": "jwvillain",
+        "code": "5301 1857 1528",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Kane Wu",
+        "username": "Kaneium",
+        "code": "4456 7237 3912",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Kelvin Yeung",
+        "username": "Kelvin112233",
+        "code": "1269 4571 4848",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Khanthos (Discord)",
+        "username": "Khanflux",
+        "code": "0551 5978 0325",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Colin Wu",
+        "username": "KHuwen",
+        "code": "3145 8051 9338",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Meghan",
+        "username": "KilVoss",
+        "code": "2090 9945 9163",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Addison",
+        "username": "Kittirina",
+        "code": "0942 9386 5038",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Matthew Ko",
+        "username": "kokopuffsss",
+        "code": "0896 9854 3042",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Will Devine",
+        "username": "KronosUno",
+        "code": "8057 2547 1464",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Ashley Zhang",
+        "username": "lilaclegend216",
+        "code": "4737 7575 0523",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Logan Davis",
+        "username": "logabb1234",
+        "code": "2020 3191 6819",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Michelle Wheeler",
+        "username": "LunaRockette",
+        "code": "7614 0086 4258",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Kevin McGarrigle",
+        "username": "mackdaddycash",
+        "code": "4226 2925 9146",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Patricia Zhang",
+        "username": "MantouBunny",
+        "code": "8528 6886 3714",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Raymond Yeung(Discord)",
+        "username": "Mastarayray",
+        "code": "9787 3037 7568",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Alex Mauney",
+        "username": "mathmauney",
+        "code": "9875 0110 8692",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Edison Widjaja",
+        "username": "MatrCauthon",
+        "code": "4851 4833 0475",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Mike Burleigh",
+        "username": "MCRBurleigh",
+        "code": "0238 2533 6501",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Tyler",
+        "username": "MisterTiberius",
+        "code": "9419 4021 8766",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Colleen Crossen",
+        "username": "MommaKeen",
+        "code": "1787 8053 4668",
+        "raids": true,
+        "friendship": false,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Maya Walters",
+        "username": "msmwalters01",
+        "code": "7304 1556 0032",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Marisa Matsudaira",
+        "username": "mzrisamom",
+        "code": "7002 6938 7096",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Nadya Kandel",
+        "username": "nadushak",
+        "code": "1035 8797 4133",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Maxine Raimon",
+        "username": "NaoKirae",
+        "code": "8562 2937 4325",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Corey Travis",
+        "username": "NegativCreep",
+        "code": "8967 0275 6125",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Samy",
+        "username": "OcttopusTopHat",
+        "code": "9565 8799 0337",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Michael Crelin",
+        "username": "PapaMufassa",
+        "code": "1976 6152 3186 ",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Ben Wu",
+        "username": "PasserbyBen",
+        "code": "6180 2125 6649",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Alan",
+        "username": "phddenied",
+        "code": "6698 6342 7927",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Jason Hamilton",
+        "username": "PhysicistJason",
+        "code": "1311 8381 4692",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Brian",
+        "username": "physinet",
+        "code": "3747 0639 7392",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Alexander Axel",
+        "username": "PunkGuyAlyx",
+        "code": "4263 9939 6905",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Seth Oaks",
+        "username": "PvtSkittles",
+        "code": "5317 9158 3670",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "sowmya",
+        "username": "qwdtvti12",
+        "code": "5600 2662 3322",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Katie",
+        "username": "rageKatie",
+        "code": "8168 3405 0547",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Andrew Amodeo",
+        "username": "RegentQuintus",
+        "code": "5295 8607 0967",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Summer (rivermuse)",
+        "username": "rivermousy",
+        "code": "0409 9587 9660",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Grace",
+        "username": "RogueStarOne",
+        "code": "9568 9082 6163",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "RoseOfPollux (Discord)",
+        "username": "RoseOfPollux",
+        "code": "1640 5422 2618",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Pui Lam Cheng",
+        "username": "RoseViolet",
+        "code": "6631 1240 8086",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "John",
+        "username": "RpccNasty",
+        "code": "3677 2413 8462",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "David Boak",
+        "username": "Satchelo",
+        "code": "8027 4500 0058",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Emily aka Vignoles\u0027 SO",
+        "username": "Sazel",
+        "code": "3556 7688 7648",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Scott",
+        "username": "scottv30",
+        "code": "7133 2672 3701",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Sekina Tam",
+        "username": "SekinaTam",
+        "code": "1875 8971 1593",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Shookies Tastegreat",
+        "username": "Shookies",
+        "code": "7302 6117 0536",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
         "name": "Addison",
         "username": "Shurelia",
-        "code": "1002 8552 2193"
+        "code": "1002 8552 2193",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Byron R",
+        "username": "SnivyByron",
+        "code": "8303 5064 4997",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Dean",
+        "username": "SoupAndSammy",
+        "code": "0064 5598 7350",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "soupy",
+        "username": "soupyhalloumi",
+        "code": "2466 8177 2962",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Stephan Teng ",
+        "username": "Stephanthesuper",
+        "code": "1444 6136 6108",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Sterling Tyger Axel",
+        "username": "SuperNerdSter",
+        "code": "4459 5364 1837",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Ryan Keilman",
+        "username": "SwayingStone",
+        "code": "8906 4396 2670",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Theresa Lagasse",
+        "username": "swee2013",
+        "code": "7976 0606 7477 ",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Tamara",
+        "username": "tamtamor",
+        "code": "9329 9147 1254",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Tamzid Ahmed",
+        "username": "tazidtj",
+        "code": "3954 6434 7413",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Michael Fox",
+        "username": "Tgeofoxx",
+        "code": "6400 8344 5773",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Devan Accardo",
+        "username": "TheDevanest",
+        "code": "7744 4702 0671 ",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Brad Werner ",
+        "username": "Theory43",
+        "code": "6815 1879 0654 ",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Chas Wells",
+        "username": "Theorymon",
+        "code": "5077 4475 3693",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Thomas WJ",
+        "username": "Tweejy",
+        "code": "5427 5033 7675",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Elias",
+        "username": "TwelveGrain",
+        "code": "0050 5096 7577",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Lawrence Klecha",
+        "username": "Urban1ce",
+        "code": "4609 4024 7408  ",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Shi Chang",
+        "username": "VeriTasL",
+        "code": "3600 1455 9959",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Ben Kirk",
+        "username": "Vignoles",
+        "code": "1827 2417 3891",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Debra Charris",
+        "username": "wahine03",
+        "code": "0651 7497 3479",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Chris",
+        "username": "WaldoWasHere3",
+        "code": "0552 2224 5817",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Anna Weaver",
+        "username": "Weaver830",
+        "code": "6615 9193 0881",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Vasyl Syl Kacapyr",
+        "username": "WokePokeHaver",
+        "code": "7957 9210 7150",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Bert Gates",
+        "username": "Yeezus607",
+        "code": "1108 7457 6668",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Shan Ling",
+        "username": "zerokkko",
+        "code": "3101 2348 9919",
+        "raids": false,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "",
+        "username": "Brayvens34",
+        "code": "4747 6839 2748",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": false
+    },
+    {
+        "name": "Charlie ",
+        "username": "ChazzzzD ",
+        "code": "0443 4894 2736",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Luc Wetherbee",
+        "username": "yungMoist32",
+        "code": "5823 6725 7405",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Jake Young",
+        "username": "Hexakly",
+        "code": "6628 9787 9799",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Jackson ",
+        "username": "Lucariotuxedo",
+        "code": "6562 1492 9430",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Max ",
+        "username": "Extrempogoer21 ",
+        "code": "5679 2173 8258",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Rose",
+        "username": "RoseKalliope",
+        "code": "0404 3976 3907",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Will D.",
+        "username": "RedBullCraze",
+        "code": "9320 2872 6941",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Iolite",
+        "username": "D0llbie",
+        "code": "5137 7355 8790",
+        "raids": false,
+        "friendship": true,
+        "pvp": true,
+        "trading": false
+    },
+    {
+        "name": "",
+        "username": "Vinceroni63 ",
+        "code": "6789 1679 1002",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Tish",
+        "username": "LTWxBee",
+        "code": "5712 7727 0023",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "Phil",
+        "username": "Phi11yCh33s3",
+        "code": "9934 9211 9863",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": false
+    },
+    {
+        "name": "Cris",
+        "username": "CrisCaleidos",
+        "code": "4162 4628 3376",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": true
+    },
+    {
+        "name": "BK",
+        "username": "bomark",
+        "code": "9837 7102 9342",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "",
+        "username": "dittocnl",
+        "code": "1059 7430 6650",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Chris",
+        "username": "DNC1983",
+        "code": "7393 0626 0755",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Mel",
+        "username": "Megelmel",
+        "code": "9940 9219 7931",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Sean",
+        "username": "seanlatias",
+        "code": "0667 0475 0422",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Carlos",
+        "username": "normaldude8825",
+        "code": "2217 5484 5609",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Valerie",
+        "username": "mcmartian",
+        "code": "4089 0681 6533",
+        "raids": false,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Akugbe",
+        "username": "Anekeykia",
+        "code": "",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Clara",
+        "username": "cbeans24",
+        "code": "5726 9927 2997",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Matt",
+        "username": "wombatengineer ",
+        "code": "3175 3751 4355",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": false
+    },
+    {
+        "name": "Greg",
+        "username": "Froggyfrog93",
+        "code": "8523 3855 8685",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Scott Montanaro",
+        "username": "sdmontanaro4",
+        "code": "4032 9557 1311",
+        "raids": true,
+        "friendship": true,
+        "pvp": true,
+        "trading": false
+    },
+    {
+        "name": "Anthony Green",
+        "username": "DarkGreenMarine",
+        "code": "2832 8192 4784",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
+    },
+    {
+        "name": "Victor",
+        "username": "yungfren",
+        "code": "0540 8579 0156",
+        "raids": false,
+        "friendship": true,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Brian",
+        "username": "Tyrothiricin",
+        "code": "1098 3041 8596",
+        "raids": true,
+        "friendship": false,
+        "pvp": false,
+        "trading": false
+    },
+    {
+        "name": "Steven",
+        "username": "LamchopsYUM",
+        "code": "3757 3193 9547",
+        "raids": true,
+        "friendship": true,
+        "pvp": false,
+        "trading": true
     }
 ]
