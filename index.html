@@ -67,6 +67,13 @@
                     </button>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="alert alert-secondary text-center col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                    {{sorted_and_filtered.length}} {{sorted_and_filtered.length != 1 ? 'friends' : 'friend'}} found
+                </div>
+            </div>
+
             <div class="row">
                 <div v-for="friend in sorted_and_filtered" class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card p-4">
