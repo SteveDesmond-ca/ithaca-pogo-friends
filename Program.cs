@@ -23,26 +23,32 @@ namespace IthacaPoGoFriends
             var friends = new List<Friend>();
             foreach (var person in jsonIn.GetProperty("values").EnumerateArray())
             {
-                var fields = person.EnumerateArray().ToArray<JsonElement>();
-                var friend = new Friend();
-
-                friend.name = fields[0].GetString();
-                friend.username = fields[1].GetString();
-                friend.code = fields[2].GetString();
-
-                if (string.IsNullOrWhiteSpace(friend.name) && string.IsNullOrWhiteSpace(friend.username) && string.IsNullOrWhiteSpace(friend.code))
-                    continue;
-
-                friend.raids = Convert.ToBoolean(fields[3].GetString());
-                friend.friendship = Convert.ToBoolean(fields[4].GetString());
-                friend.pvp = Convert.ToBoolean(fields[5].GetString());
-                friend.trading = Convert.ToBoolean(fields[6].GetString());
-
+                var friend = GetFriend(person);
                 friends.Add(friend);
             }
             var options = new JsonSerializerOptions { WriteIndented = true };
-            var jsonOut = JsonSerializer.Serialize(friends, options);
+            var jsonOut = JsonSerializer.Serialize(friends.Where(friend => friend != null), options);
             await File.WriteAllTextAsync("friends.json", jsonOut);
+        }
+
+        private static Friend GetFriend(JsonElement person)
+        {
+            var fields = person.EnumerateArray().ToArray<JsonElement>();
+            var friend = new Friend();
+
+            friend.name = fields[0].GetString();
+            friend.username = fields[1].GetString();
+            friend.code = fields[2].GetString();
+
+            if (string.IsNullOrWhiteSpace(friend.name) && string.IsNullOrWhiteSpace(friend.username) && string.IsNullOrWhiteSpace(friend.code))
+                return null;
+
+            friend.raids = Convert.ToBoolean(fields[3].GetString());
+            friend.friendship = Convert.ToBoolean(fields[4].GetString());
+            friend.pvp = Convert.ToBoolean(fields[5].GetString());
+            friend.trading = Convert.ToBoolean(fields[6].GetString());
+
+            return friend;
         }
     }
 }
