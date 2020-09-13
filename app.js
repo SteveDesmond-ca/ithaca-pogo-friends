@@ -35,7 +35,8 @@ const app = new Vue({
         }
     },
     mounted: async function () {
-        const request = await fetch('friends.json');
+        const now = (new Date()).getTime();
+        const request = await fetch(`friends.json?${now}`);
         this.friends = await request.json();
         this.friends.forEach(friend => {
             const segments = qrcodegen.QrSegment.makeSegments(friend.code.replace(/ /g, ''));
