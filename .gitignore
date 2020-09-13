@@ -106,4 +106,4 @@ dist
 .vscode/
 bin/
 obj/
-friends.txt
+appsettings.json
