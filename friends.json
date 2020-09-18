@@ -1303,5 +1303,14 @@
     "friendship": true,
     "pvp": false,
     "trading": false
+  },
+  {
+    "name": "Arjun",
+    "username": "juna1004",
+    "code": "43127926277",
+    "raids": true,
+    "friendship": true,
+    "pvp": false,
+    "trading": true
   }
 ]
