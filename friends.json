@@ -279,6 +279,15 @@
     "trading": true
   },
   {
+    "name": "Sam",
+    "username": "GambleShroud",
+    "code": "1016 3693 0723",
+    "raids": true,
+    "friendship": true,
+    "pvp": false,
+    "trading": true
+  },
+  {
     "name": "Jonathan M. Lagasse",
     "username": "Gasman713",
     "code": "5463 4888 8285",
@@ -1308,6 +1317,15 @@
     "name": "Arjun",
     "username": "juna1004",
     "code": "43127926277",
+    "raids": true,
+    "friendship": true,
+    "pvp": false,
+    "trading": true
+  },
+  {
+    "name": "Crystal",
+    "username": "crystalllite",
+    "code": "2702 1256 4411",
     "raids": true,
     "friendship": true,
     "pvp": false,
