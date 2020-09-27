@@ -813,10 +813,10 @@
     "name": "Byron R",
     "username": "SnivyByron",
     "code": "8303 5064 4997",
-    "raids": false,
-    "friendship": false,
+    "raids": true,
+    "friendship": true,
     "pvp": false,
-    "trading": false
+    "trading": true
   },
   {
     "name": "Dean",
@@ -1326,6 +1326,15 @@
     "name": "Crystal",
     "username": "crystalllite",
     "code": "2702 1256 4411",
+    "raids": true,
+    "friendship": true,
+    "pvp": false,
+    "trading": true
+  },
+  {
+    "name": "Byron ",
+    "username": "JKI\u0027mAce ",
+    "code": "3790 8091 7502",
     "raids": true,
     "friendship": true,
     "pvp": false,
