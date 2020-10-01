@@ -434,7 +434,7 @@
   {
     "name": "Addison",
     "username": "Kittirina",
-    "code": "0942 9386 5038",
+    "code": "",
     "raids": false,
     "friendship": false,
     "pvp": false,
@@ -1336,6 +1336,15 @@
     "username": "JKI\u0027mAce ",
     "code": "3790 8091 7502",
     "raids": true,
+    "friendship": true,
+    "pvp": false,
+    "trading": true
+  },
+  {
+    "name": "Bunny",
+    "username": "",
+    "code": "4107 9317 7485",
+    "raids": false,
     "friendship": true,
     "pvp": false,
     "trading": true
