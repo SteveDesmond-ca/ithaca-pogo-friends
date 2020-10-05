@@ -1348,5 +1348,14 @@
     "friendship": true,
     "pvp": false,
     "trading": true
+  },
+  {
+    "name": "Susan",
+    "username": "DrSuzy5",
+    "code": "538383734452",
+    "raids": true,
+    "friendship": true,
+    "pvp": true,
+    "trading": true
   }
 ]
