@@ -136,12 +136,12 @@
   },
   {
     "name": "Tyler",
-    "username": "Coolgamer7",
+    "username": "0Coolgamer7",
     "code": "7035 8513 7149",
-    "raids": false,
-    "friendship": false,
+    "raids": true,
+    "friendship": true,
     "pvp": false,
-    "trading": false
+    "trading": true
   },
   {
     "name": "Rob",
@@ -1357,5 +1357,14 @@
     "friendship": true,
     "pvp": true,
     "trading": true
+  },
+  {
+    "name": "Addison",
+    "username": "Abot0",
+    "code": "88832240720",
+    "raids": true,
+    "friendship": true,
+    "pvp": false,
+    "trading": false
   }
 ]
